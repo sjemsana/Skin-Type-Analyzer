@@ -1,0 +1,65 @@
+/* General Styling for improved readability */
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.6; /* Added a baseline line height */
+}
+
+h1 {
+  display: block;
+  margin: 0 auto;
+  padding: 20px 30px;
+  text-align: center;
+  font-size: 30px;
+}
+h2 {
+  text-align: center;
+  font-size: 20px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+img {
+  display: block;
+  max-width: 70%;
+  max-height: 30%;
+  margin: 10px auto;
+  padding: 5% 0;
+}
+button {
+  display: block;
+  margin: 0 auto 20px auto;
+  padding: 15px 30px;
+  border-radius: 10px;
+  border: 3px solid #fff395;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: #fff395;
+  transition: all 200ms ease-in-out;
+}
+button:hover {
+  background: transparent;
+  cursor: pointer;
+}
+p {
+  font-size: 15px; /* Changed 'font' to 'font-size' */
+  color: #4c4b47;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+.contents {
+  background-image: linear-gradient(to bottom, #fffdd5, #fff7c9);
+  border: none;
+  border-radius: 50px;
+  padding: 30px;
+  margin: 50px auto; /* Added margin-top/bottom for spacing */
+  max-width: 600px; /* Defined a max-width for better control */
+  text-align: center;
+}
+.description {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  color: black;
+  /* line-height is inherited from the body now, but can be overridden if needed */
+}
