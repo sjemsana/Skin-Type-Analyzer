@@ -9,4 +9,4 @@ The main challenge was ensuring the JavaScript logic correctly validated the use
 ## Technologies Used:
 HTML5 (Semantic Tags), CSS3, Vanilla JavaScript (Template Literals, if/else, prompt, alert, and Event Listeners).
 
-**Link to Live Demo:**
+**Link to Live Demo:**  https://sjemsana.github.io/Skin-Type-Analyzer/
